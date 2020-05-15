@@ -1,0 +1,52 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Kingfisher",
+        "repositoryURL": "https://github.com/onevcat/Kingfisher",
+        "state": {
+          "branch": null,
+          "revision": "910d808ade2a576e1a292ceb458a6fa43f67f594",
+          "version": "5.14.0"
+        }
+      },
+      {
+        "package": "LBTATools",
+        "repositoryURL": "https://github.com/bhlvoong/LBTATools.git",
+        "state": {
+          "branch": null,
+          "revision": "dce147bfbdc0417a4b430ec220c088629e9dc81d",
+          "version": "1.0.17"
+        }
+      },
+      {
+        "package": "Material",
+        "repositoryURL": "https://github.com/CosmicMind/Material.git",
+        "state": {
+          "branch": null,
+          "revision": "059ed9c336d24b5f6383bec0346ae7c314724120",
+          "version": "3.1.8"
+        }
+      },
+      {
+        "package": "Motion",
+        "repositoryURL": "https://github.com/CosmicMind/Motion.git",
+        "state": {
+          "branch": null,
+          "revision": "808ac0cf1b67c5e4163ee867dd6c056836fcbc58",
+          "version": "3.1.3"
+        }
+      },
+      {
+        "package": "UICircularProgressRing",
+        "repositoryURL": "https://github.com/luispadron/UICircularProgressRing.git",
+        "state": {
+          "branch": null,
+          "revision": "4a1fd4a77bcc27f8b3714aae3ea35835251dcef3",
+          "version": "6.5.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
