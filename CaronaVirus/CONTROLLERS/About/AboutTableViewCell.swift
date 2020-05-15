@@ -18,32 +18,6 @@ class AboutTableViewCell: UITableViewCell {
         return $0
     }(UIImageView())
     
-    fileprivate var twitterButton: RaisedButton = {
-        return $0
-    }(RaisedButton())
-    
-    fileprivate lazy var cellBackgroundView: UIView = {
-        $0.layer.cornerRadius = 5
-        $0.backgroundColor = .clear
-        
-        $0.addSubview(textView)
-        textView.anchor(top: $0.topAnchor, leading: $0.leadingAnchor, bottom: $0.bottomAnchor, trailing: $0.trailingAnchor, padding: .init(top: 5, left: 5, bottom: 5, right: 5))
-//        $0.setupShadow(opacity: 0.7, radius: 12, offset: .init(width: 0, height: 0), color: .lightGray)
-        return $0
-    }(UIView())
-    
-    fileprivate lazy var cellBackgroundView2: UIView = {
-        $0.layer.cornerRadius = 5
-        $0.backgroundColor = .white
-        let appLabel = UILabel()
-        let appVersion = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String
-        appLabel.textAlignment = .center
-        appLabel.font = .systemFont(ofSize: 15)
-        appLabel.text = "إصدار التطبيق: \(appVersion ?? "")"
-        $0.addSubview(appLabel)
-        appLabel.anchor(top: $0.topAnchor, leading: $0.leadingAnchor, bottom: $0.bottomAnchor, trailing: $0.trailingAnchor, padding: .init(top: 10, left: 10, bottom: 10, right: 10))
-        return $0
-    }(UIView())
     
     fileprivate lazy var textView: UILabel = {
         $0.textAlignment = .right
@@ -145,6 +119,5 @@ extension AboutTableViewCell {
         logoImageView.centerXTo(centerXAnchor)
         
         textView.anchor(top: topAnchor, leading: leadingAnchor, bottom: nil, trailing: trailingAnchor, padding: .init(top: 100, left: 40, bottom: 0, right: 40))
-                
     }
 }
